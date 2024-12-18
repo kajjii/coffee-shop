@@ -1,0 +1,13 @@
+.coffee__line {
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & .line {
+        width: 60px;
+        height: 1px;
+        border: none;
+        background-color: #000;
+    }
+}

@@ -1,0 +1,30 @@
+.app {
+    &__nav {
+        margin-bottom: 30px;
+        width: 500px;
+    }
+    &__menu {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        list-style: none;
+    }
+    &__list {
+        position: relative;
+        min-width: 155px;
+        font-size: 13px;
+        font-weight: 300;
+        text-align: start;
+        & img {
+            position: absolute;
+            left: -25%;
+            top: 40%;
+            transform: translateY(-70%)
+        }
+        & a {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}

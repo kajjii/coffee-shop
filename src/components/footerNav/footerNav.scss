@@ -1,0 +1,11 @@
+
+.footer {
+    &__nav {
+        width: 500px;
+        padding: 30px 45px 20px;
+        margin: 0 auto;
+        & a {
+            color: #000;
+        }
+    }
+}

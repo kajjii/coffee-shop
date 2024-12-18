@@ -1,0 +1,31 @@
+.our-beans {
+    padding: 60px 0 40px;
+    & hr {
+        width: 240px;
+        margin: 0 auto;
+        height: 1px;
+        border: none;
+        background-color: #000;
+    }
+    &__wrapper {
+        margin: 0 auto;
+        width: 750px;
+        display: flex;
+        justify-content: space-around;
+    }
+    &__info {
+        margin-top: 35px;
+        width: 350px;
+        text-align: center;
+    }
+    &__title {
+        margin-bottom: 10px;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    &__text {
+        margin-top: 25px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+}

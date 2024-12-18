@@ -1,0 +1,14 @@
+.about {
+    padding: 80px 425px 100px;
+    text-align: center;
+    &__title {
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: normal;
+    }
+    &__text {
+        width: 590px;
+        margin: 40px auto 0;
+        font-size: 14px;
+    }
+}

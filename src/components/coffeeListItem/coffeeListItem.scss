@@ -1,0 +1,35 @@
+a {
+    text-decoration: none;
+    color: #000;
+}
+.coffee {
+    &__item {
+        margin-top: 60px;
+        width: 225px;
+        padding: 30px 24px 20px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.65);
+        box-shadow: 4px 5px 16px 5px rgba(34, 60, 80, 0.25);
+        text-align: right;
+        list-style: none;
+        & img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__text {
+        margin-top: 15px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__country {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__price {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}

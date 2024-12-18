@@ -1,0 +1,12 @@
+.coffee {
+    &__list {
+        width: 800px;
+        margin: 0 auto;
+    }
+    &__choice {
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
