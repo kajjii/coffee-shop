@@ -37,4 +37,4 @@ const PaginationBtn = ({ totalPages, currentPage, paginate }) => {
     );
 };
 
-export default PaginationBtn
+export default PaginationBtn;
