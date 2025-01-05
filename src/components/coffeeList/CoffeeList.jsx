@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import CoffeeListItem from '../coffeeListItem/CoffeeListItem';
-import PaginationBtn from '../paginationBtn/PaginationBtn';
+import PaginationBtn from '../PaginationBtn/PaginationBtn';
 import './coffeeList.scss'
 
 const CoffeeList = ({products}) => {
