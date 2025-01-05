@@ -4,7 +4,7 @@ import OurCoffeePage from '../pages/OurCoffeePage';
 import SingleCoffeePage from '../pages/SingleCoffeePage';
 import ForYourPLeasurePage from '../pages/ForYourPLeasurePage';
 import FooterNav from '../footerNav/FooterNav'
-import ScrollToTop from '../../utils/scrollToTop';
+import ScrollToTop from '../../utils/ScrollToTop';
 import './App.scss'
 
 function App() {
