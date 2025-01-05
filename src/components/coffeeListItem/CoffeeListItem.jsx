@@ -1,10 +1,10 @@
 import {NavLink} from 'react-router-dom'
 import './coffeeListItem.scss'
 
-const CoffeeListItem = ({index, img, title, price, country}) => {
+const CoffeeListItem = ({ bean: {id, img, title, country, price} }) => {
     return (
         <li className="coffee__item">
-            <NavLink to={`/singleCoffee/${index}`}>
+            <NavLink to={`/singleCoffee/${id}`}>
                 <img src={img} alt={title} />
                 <p className="coffee__text">{title}</p>
                 <p className="coffee__country">{country}</p>

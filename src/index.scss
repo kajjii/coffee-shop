@@ -47,6 +47,11 @@ button {
     .coffee__list {
         width: 720px;
     }
+    .coffee__choice {
+        grid-template-columns: repeat(2, 225px);
+        justify-content: center;
+        column-gap: 90px;
+    }
     .footer__nav {
         width: 350px;
     }
@@ -87,7 +92,8 @@ button {
         min-width: 100px;
         font-size: 11px;
         & img {
-            left: -28%;
+            width: 25%;
+            left: -25%;
             top: 25%;
         }
     } 
@@ -106,10 +112,13 @@ button {
     .our-best__coffee {
         width: 430px;
         flex-wrap: wrap;
-        column-gap: 30px;
+        gap: 30px;
+    }
+    .coffee__choice {
+        grid-template-columns: repeat(2, 200px);
+        gap: 30px;
     }
     .coffee__item {
-        margin-top: 40px;
         width: 200px;
         padding: 20px 15px 15px;
     }
@@ -180,7 +189,7 @@ button {
 @media (max-width: 480px) {
     .main {
         &__screen {
-            padding: 30px 20px 70px;
+            padding: 30px 30px 70px;
         }
         &__title {
             margin: 70px 0 15px;
@@ -241,10 +250,19 @@ button {
         width: 300px;
     }
     .coffee__choice {
-        justify-content: center;
+        grid-template-columns: repeat(1, 200px);
     }
     .about-it__wrapper {
         width: 300px;
+    }
+    .pagination {
+        margin: 40px auto 0;
+        &__numbers {
+            margin: 0px;
+        }
+        button {
+            margin: 0 2px;
+        }
     }
     .footer__nav {
         padding: 30px 0 20px;

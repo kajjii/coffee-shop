@@ -1,7 +1,8 @@
+import { Link } from 'react-router-dom';
 import AppNav from '../appNav/AppNav';
 import CoffeeLine from '../UI/coffeeLine/CoffeeLine';
 import navBeansHeader from '../../images/icons/coffee-beans-navigation-white.png'
-import { Link } from 'react-router-dom';
+import whiteBeans from '../../images/icons/coffee-beans-white.png'
 import './mainCoffeeScreen.scss'
 
 const MainCoffeeScreen = () => {
@@ -12,7 +13,7 @@ const MainCoffeeScreen = () => {
             </div>
             <div className="main__described">
                 <h1 className="main__title">Everything You Love About Coffee</h1>
-                <CoffeeLine />
+                <CoffeeLine icon={whiteBeans} color='#fff' />
                 <h2 className="main__text">We makes every day full of energy and taste
                     <br />
                     Want to try our beans?

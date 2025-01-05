@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import FooterNav from './components/footerNav/FooterNav'
-import MainPage from './components/pages/MainPage';
-import OurCoffeePage from './components/pages/OurCoffeePage';
-import SingleCoffeePage from './components/pages/SingleCoffeePage';
-import ForYourPLeasurePage from './components/pages/ForYourPLeasurePage';
-import ScrollToTop from './utils/scrollToTop';
-import './App.css'
+import MainPage from '../pages/MainPage';
+import OurCoffeePage from '../pages/OurCoffeePage';
+import SingleCoffeePage from '../pages/SingleCoffeePage';
+import ForYourPLeasurePage from '../pages/ForYourPLeasurePage';
+import FooterNav from '../footerNav/FooterNav'
+import ScrollToTop from '../../utils/scrollToTop';
+import './App.scss'
 
 function App() {
 

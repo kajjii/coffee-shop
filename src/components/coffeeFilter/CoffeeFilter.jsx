@@ -5,7 +5,7 @@ const CoffeeFilter = ({onFilterName, onFilterNameChange, onFilterChange, optionC
     return (
         <div className="coffee__filter">
             <div className="coffee__search">
-                <p className="coffee__filter-text">Lookiing for</p>
+                <p className="coffee__filter-text">Looking for</p>
                 <input 
                     className='coffee__input' 
                     type="text"

@@ -1,0 +1,45 @@
+.pagination {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        &__numbers {
+            display: flex;
+            margin: 0 10px;
+            button {
+                padding: 8px 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                margin: 0 3px;
+                cursor: pointer;
+                background-color: transparent;
+                &.active {
+                    background-color: #a67c52;
+                    color: #f2e8cf;
+                    border-color: #a67c52;
+                }
+                &:hover {
+                    background-color: #a67c52;
+                    color: #f2e8cf;
+                    border-color: #a67c52;
+                }
+            }
+        }
+        button {
+        padding: 8px 12px;
+        background-color: transparent;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin: 0 5px;
+        cursor: pointer;
+            &:disabled {
+                opacity: 0.5;
+                cursor: not-allowed;
+            }
+            &:hover:not(:disabled){
+                background-color: #a67c52;
+                color: #f2e8cf;
+                border-color: #a67c52;
+            }
+        }
+  }
