@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useGetProductsQuery } from "../../shared/api/products";
 import CoffeeListItem from "../coffeeListItem/CoffeeListItem";
-import PaginationBtn from "../paginationBtn/PaginationBtn";
+import PaginationBtn from "../PaginationBtn/PaginationBtn";
 import "./coffeeList.scss";
 
 const CoffeeList = ({ title, country }) => {
