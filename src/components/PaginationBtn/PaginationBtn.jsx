@@ -1,36 +1,24 @@
 import './paginationBtn.scss'
 
-const PaginationBtn = ({ totalPages, currentPage, paginate }) => {
-
-    const getPageNumbers = () => {
-        const pageNumbers = [];
-
-        for (let i = 1; i <= totalPages; i++) {
-            pageNumbers.push(i);
-        }
-
-        return pageNumbers;
-    };
-
-    const pageNumbers = getPageNumbers();
+const PaginationBtn = ({ totalPages, setPage, page }) => {
 
     return (
         <div className="pagination">
-            <button onClick={() => paginate(currentPage - 1)} disabled={currentPage === 1}>
+            <button onClick={() => setPage(p => Math.max(p - 1, 1))} disabled={page === 1}>
                 &lt;
             </button>
             <div className="pagination__numbers">
-                {pageNumbers.map((page) => (
-                    <button
-                        key={page}
-                        onClick={() => paginate(page)}
-                        className={page === currentPage ? 'active' : ''}
-                    >
-                        {page}
-                    </button>
-                ))}
+                {[...new Array(totalPages)].map((_, i) => {
+                    const pageNumber = i + 1
+                    return (
+                    <button 
+                        key={i} 
+                        onClick={() => setPage(pageNumber)}
+                        className={pageNumber === page ? 'active' : ''}
+                        >{pageNumber}</button>)
+                })}
             </div>
-            <button onClick={() => paginate(currentPage + 1)} disabled={currentPage === totalPages}>
+            <button onClick={() => setPage(p => Math.min(p + 1, totalPages))} disabled={page === totalPages}>
                 &gt;
             </button>
         </div>
