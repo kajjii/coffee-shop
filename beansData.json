@@ -1,187 +1,186 @@
-
 {
   "filters": [],
   "beans": [
     {
       "id": 1,
-      "img": "/public/images/aromistico-coffee.png",
-      "imgBig": "/public/images/aromistico-coffee-big.jpg",
+      "img": "/images/aromistico-coffee.png",
+      "imgBig": "/images/aromistico-coffee-big.jpg",
       "title": "AROMISTICO Coffee 1 kg",
       "country": "Brazil",
       "price": "6.99"
     },
     {
       "id": 2,
-      "img": "/public/images/ethiopia-coffee.png",
-      "imgBig": "/public/images/ethiopia-big.webp",
+      "img": "/images/ethiopia-coffee.png",
+      "imgBig": "/images/ethiopia-big.webp",
       "title": "Ethiopia Yirgacheffe 1 kg",
       "country": "Ethiopia",
       "price": "9.75"
     },
     {
       "id": 3,
-      "img": "/public/images/colombia-coffee.webp",
-      "imgBig": "/public/images/colombia-big.webp",
+      "img": "/images/colombia-coffee.webp",
+      "imgBig": "/images/colombia-big.webp",
       "title": "Colombia Supremo 1 kg",
       "country": "Colombia",
       "price": "10.20"
     },
     {
       "id": 4,
-      "img": "/public/images/sumatra-coffee.webp",
-      "imgBig": "/public/images/sumatra-big.webp",
+      "img": "/images/sumatra-coffee.webp",
+      "imgBig": "/images/sumatra-big.webp",
       "title": "Sumatra Mandheling 1 kg",
       "country": "Indonesia",
       "price": "11.90"
     },
     {
       "id": 5,
-      "img": "/public/images/kenya-coffee.webp",
-      "imgBig": "/public/images/kenya-big.webp",
+      "img": "/images/kenya-coffee.webp",
+      "imgBig": "/images/kenya-big.webp",
       "title": "Kenya AA 1 kg",
       "country": "Kenya",
       "price": "12.50"
     },
     {
       "id": 6,
-      "img": "/public/images/guatemala-coffee.png",
-      "imgBig": "/public/images/guatemala-big.webp",
+      "img": "/images/guatemala-coffee.png",
+      "imgBig": "/images/guatemala-big.webp",
       "title": "Guatemala Antigua 1 kg",
       "country": "Guatemala",
       "price": "9.95"
     },
     {
       "id": 7,
-      "img": "/public/images/costa-rica-coffee.webp",
-      "imgBig": "/public/images/costa-rica-big.jpg",
+      "img": "/images/costa-rica-coffee.webp",
+      "imgBig": "/images/costa-rica-big.jpg",
       "title": "Costa Rica Tarrazu 1 kg",
       "country": "Costa Rica",
       "price": "11.50"
     },
     {
       "id": 8,
-      "img": "/public/images/vietnam-coffee.jpg",
-      "imgBig": "/public/images/vietnam-big.jpg",
+      "img": "/images/vietnam-coffee.jpg",
+      "imgBig": "/images/vietnam-big.jpg",
       "title": "Vietnam Robusta 1 kg",
       "country": "Vietnam",
       "price": "7.80"
     },
     {
       "id": 9,
-      "img": "/public/images/yemen-coffee.webp",
-      "imgBig": "/public/images/yemen-big.jpg",
+      "img": "/images/yemen-coffee.webp",
+      "imgBig": "/images/yemen-big.jpg",
       "title": "Yemen Mocca 1 kg",
       "country": "Yemen",
       "price": "14.70"
     },
     {
       "id": 10,
-      "img": "/public/images/indonesia-coffee.jpg",
-      "imgBig": "/public/images/indonesia-big.jpg",
+      "img": "/images/indonesia-coffee.jpg",
+      "imgBig": "/images/indonesia-big.jpg",
       "title": "Indonesia Toraja 1 kg",
       "country": "Indonesia",
       "price": "13.20"
     },
     {
       "id": 11,
-      "img": "/public/images/hawaii-coffee.jpg",
-      "imgBig": "/public/images/hawaii-big.jpeg",
+      "img": "/images/hawaii-coffee.jpg",
+      "imgBig": "/images/hawaii-big.jpeg",
       "title": "Hawaii Kona 1 kg",
       "country": "USA",
       "price": "22.99"
     },
     {
       "id": 12,
-      "img": "/public/images/jamaica-coffee.webp",
-      "imgBig": "/public/images/jamaica-big.jpg",
+      "img": "/images/jamaica-coffee.webp",
+      "imgBig": "/images/jamaica-big.jpg",
       "title": "Jamaica Blue Mountain 1 kg",
       "country": "Jamaica",
       "price": "28.50"
     },
     {
       "id": 13,
-      "img": "/public/images/tanzania-coffee.webp",
-      "imgBig": "/public/images/tanzania-big.jpg",
+      "img": "/images/tanzania-coffee.webp",
+      "imgBig": "/images/tanzania-big.jpg",
       "title": "Tanzania Peaberry 1 kg",
       "country": "Tanzania",
       "price": "15.70"
     },
     {
       "id": 14,
-      "img": "/public/images/peru-coffee.jpg",
-      "imgBig": "/public/images/peru-big.jpg",
+      "img": "/images/peru-coffee.jpg",
+      "imgBig": "/images/peru-big.jpg",
       "title": "Peru Organic 1 kg",
       "country": "Peru",
       "price": "12.20"
     },
     {
       "id": 15,
-      "img": "/public/images/nicaragua-coffee.jpg",
-      "imgBig": "/public/images/nicaragua-big.jpg",
+      "img": "/images/nicaragua-coffee.jpg",
+      "imgBig": "/images/nicaragua-big.jpg",
       "title": "Nicaragua Maragogype 1 kg",
       "country": "Nicaragua",
       "price": "13.90"
     },
     {
       "id": 16,
-      "img": "/public/images/monsooned-coffee.jpg",
-      "imgBig": "/public/images/monsooned-big.jpg",
+      "img": "/images/monsooned-coffee.jpg",
+      "imgBig": "/images/monsooned-big.jpg",
       "title": "India Monsooned Malabar 1 kg",
       "country": "India",
       "price": "10.50"
     },
     {
       "id": 17,
-      "img": "/public/images/salvador-coffee.jpg",
-      "imgBig": "/public/images/salvador-big.jpg",
+      "img": "/images/salvador-coffee.jpg",
+      "imgBig": "/images/salvador-big.jpg",
       "title": "El Salvador Pacamara 1 kg",
       "country": "El Salvador",
       "price": "14.20"
     },
     {
       "id": 18,
-      "img": "/public/images/panama-coffee.jpg",
-      "imgBig": "/public/images/panama-big.jpg",
+      "img": "/images/panama-coffee.jpg",
+      "imgBig": "/images/panama-big.jpg",
       "title": "Panama Geisha 1 kg",
       "country": "Panama",
       "price": "35.00"
     },
     {
       "id": 19,
-      "img": "/public/images/rwanda-coffee.jpg",
-      "imgBig": "/public/images/rwanda-big.jpg",
+      "img": "/images/rwanda-coffee.jpg",
+      "imgBig": "/images/rwanda-big.jpg",
       "title": "Rwanda Kivu 1 kg",
       "country": "Rwanda",
       "price": "15.50"
     },
     {
       "id": 20,
-      "img": "/public/images/papua-coffee.jpg",
-      "imgBig": "/public/images/papua-big.jpg",
+      "img": "/images/papua-coffee.jpg",
+      "imgBig": "/images/papua-big.jpg",
       "title": "Papua New Guinea 1 kg",
       "country": "Papua New Guinea",
       "price": "11.75"
     },
     {
       "id": 21,
-      "img": "/public/images/solimo-coffee.png",
-      "imgBig": "/public/images/solimo-big.jpg",
+      "img": "/images/solimo-coffee.png",
+      "imgBig": "/images/solimo-big.jpg",
       "title": "Solimo Coffee Beans 2 kg",
       "country": "Ethiopia",
       "price": "10.73"
     },
     {
       "id": 22,
-      "img": "/public/images/presto-coffee.png",
-      "imgBig": "/public/images/presto-big.jpg",
+      "img": "/images/presto-coffee.png",
+      "imgBig": "/images/presto-big.jpg",
       "title": "Presto Coffee Beans 1 kg",
       "country": "Italia",
       "price": "15.99"
     },
     {
       "id": 23,
-      "img": "/public/images/aromistico-coffee.png",
-      "imgBig": "/public/images/aromistico-coffee-big.jpg",
+      "img": "/images/aromistico-coffee.png",
+      "imgBig": "/images/aromistico-coffee-big.jpg",
       "title": "AROMISTICO Coffee 1 kg",
       "country": "Brazil",
       "price": "6.99"
